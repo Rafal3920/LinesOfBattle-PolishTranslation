@@ -1,8 +1,6 @@
 {
-  "premiumCurrencyAndroidInfo": "<premiumCurrency/> purchasing is not available on Android yet. If you want to purchase <premiumCurrency/> you have to use the web version.",
-
   "currencyShop": {
-    "title": "Get <0/> Coins",
+    "title": "Get <0/>",
     "subtitle": "Unlock amazing cosmetics and stand out from the crowd!"
   },
 

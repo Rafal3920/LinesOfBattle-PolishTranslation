@@ -1,4 +1,5 @@
 {
+  "appLoadingMessage": "Welcome to Lines of Battle!",
   "home": "Home",
   "language": "Language",
   "tutorial": "Tutorial",
@@ -11,6 +12,7 @@
   "elo": "Elo",
   "joinedAt": "Joined at {{date}}",
   "addPlayer": "Add player",
+  "credits": "Credits",
 
   "settings": "Settings",
   "eloScore": "Your Elo is {{elo}}",
@@ -52,7 +54,7 @@
     "matchFound": "Once a match is found, you will be redirected to the game.",
     "continueMatchmaking": "Even if you leave this page, the matchmaking process will continue, and you will be notified when a match is made.",
     "nextQueueCheck": "Next queue check in {{countdown}} seconds.",
-    "onlyClanMembers": "Only play with coalition members"
+    "onlyClanMembers": "Play only with coalition teammates"
   },
 
   "fastMode": "Fast Mode",
@@ -72,6 +74,7 @@
 
   "battleType": "Battle type",
   "dynamicBattleType": {
+    "skirmish": "Skirmish",
     "clash": "Clash",
     "combat": "Combat",
     "battle": "Battle",
@@ -177,31 +180,59 @@
     "cavalry-sword": "Cavalry Sword",
     "canister-fire": "Canister Fire",
     "light-canister-fire": "Light Canister Fire",
-    "howitzer-canister": "Howitzer Canister"
+    "howitzer-canister": "Howitzer Canister",
+    "heavy-cannon-ball": "Heavy Cannon Ball",
+    "heavy-canister-fire": "Heavy Canister Fire",
+    "dragoon-sword": "Dragoon Sword",
+    "horse-archer-bow": "Horse Archer Bow"
   },
 
   "unitName": {
     "1": "Line Infantry",
-    "2": "Hussars",
-    "3": "12-lb Foot Artillery",
+    "2": "Dragoons",
+    "3": "8-lb Foot Artillery",
     "4": "Guards Infantry",
     "5": "Lancers",
-    "6": "4-lb Horse Artillery",
+    "6": "6-lb Horse Artillery",
     "7": "Light Infantry",
     "8": "Cuirassiers",
-    "9": "6-in Howitzer"
+    "9": "6-in Howitzer",
+    "10": "Militia",
+    "11": "Hussars",
+    "12": "12-lb Foot Artillery",
+    "13": "Horse Archers"
+  },
+
+  "battalionName": {
+    "1": "{{n}} Line Battalion",
+    "2": "{{n}} Dragoons",
+    "3": "{{n}} Foot Battery",
+    "4": "{{n}} Guards Battalion",
+    "5": "{{n}} Lancers",
+    "6": "{{n}} Horse Battery",
+    "7": "{{n}} Light Battalion",
+    "8": "{{n}} Cuirassiers",
+    "9": "{{n}} Howitzer Battery",
+    "10": "{{n}} Militia",
+    "11": "{{n}} Hussars",
+    "12": "{{n}} Foot Battery",
+    "13": "{{n}} Horse Archers"
   },
 
   "unitDescription": {
     "1": "The humble line infantry battalion is the basic unit of the army. The musket is its primary weapon, but it can also fend off cavalry or charge other infantry and artillery with the bayonet.",
+    "2": "Reliable, well-rounded medium cavalry fit for harassment as well as prolonged fighting.",
+    "3": "Affordable medium artillery with modest mobility and firepower, together with impressive canister fire.",
     "4": "Experienced, physically imposing soldiers with the ability to inspire friendly soldiers and terrify enemies. These elite units are exclusive to the most naturally gifted soldiers, which makes them much more expensive to field. Their intimidation and excellent melee characteristics are put to best use in a bayonet charge.",
     "7": "Elite line infantry trained with a special focus on rapid movement and marksmanship.",
-    "2": "Light cavalry suited to attacking weak, damaged, and routing enemies. However, they will struggle against organized infantry and heavy cavalry. Use infantry and artillery to weaken the enemy first.",
+    "11": "Light cavalry suited to attacking weak, damaged, and routing enemies. However, they will struggle against organized infantry and heavy cavalry. Use infantry and artillery to weaken the enemy first.",
     "5": "Elite medium cavalry that use the lance to deliver devastating charges - a series of charges by multiple Lancer squadrons will swiftly rout any opposition. However, they're much less impressive in a drawn-out melee.",
     "8": "Formidable heavy cavalry with the strongest all-around melee combat effectiveness of any unit. However, it's still best to weaken the enemy with infantry or artillery before sending in your Cuirassiers.",
-    "3": "The heaviest field gun available to the Napoleonic army; while these batteries are extremely expensive, their range and power are unmatched.",
+    "12": "The heaviest field gun available to the Napoleonic army; while these batteries are extremely expensive, their range and power are unmatched.",
     "6": "This artillery's speed and low cost make it suitable for supporting cavalry or advancing alongside your infantry line.",
-    "9": "Light field howitzers with explosive shells and particularly lethal short-range canister fire - ideal for supporting your infantry line at medium to short range."
+    "9": "Light field howitzers with explosive shells and particularly lethal short-range canister fire - ideal for supporting your infantry line at medium to short range.",
+    "10": "“To place any dependence upon militia is assuredly resting upon a broken staff.” - George Washington",
+    "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh"
   },
 
   "damageResistances": "Damage Resistances",
@@ -229,6 +260,7 @@
   "circular": "Circular",
   "radius": "Radius",
   "edgeDamageModifier": "Edge Damage Modifier",
+  "absorption": "Absorption",
   "trapezoidal": "Trapezoidal",
   "topWidth": "Top width",
   "bottomWidth": "Bottom width",
@@ -440,10 +472,16 @@
   },
 
   "battleReport": "Battle Report",
+  "strength": "Strength",
+  "guns": "Guns",
+  "casualties": "Casualties",
+  "gunsLost": "Guns Lost",
+  "noRewards": "No rewards",
 
   "clan": "Coalition",
   "clans": "Coalitions",
-  "createClan": "Create Coalition <0/> {{price}}",
+  "createClan": "Create Coalition",
+  "create": "Create",
   "clanRole": {
     "leader": "Leader",
     "member": "Member"
@@ -482,5 +520,15 @@
 
   "kick": "Kick",
   "noDescription": "No description",
-  "save": "Save"
+  "save": "Save",
+
+  "ordersSubmittedDialog": {
+    "p1": "You've submitted your orders. Now, wait for the others to make their move.",
+    "p2": "Checking updates in {{value}} seconds",
+    "b": "Check Now"
+  },
+
+  "search": {
+    "clans": "Search coalitions"
+  }
 }
