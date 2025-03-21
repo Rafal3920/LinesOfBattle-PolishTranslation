@@ -1,4 +1,5 @@
 {
+  "appLoadingMessage": "Welcome to Lines of Battle!",
   "home": "Strona Główna",
   "language": "Język",
   "tutorial": "Samouczek",
@@ -11,6 +12,7 @@
   "elo": "Elo",
   "joinedAt": "Dołączono {{date}}",
   "addPlayer": "Dodaj gracza",
+  "credits": "Credits",
 
   "settings": "Ustawienia",
   "eloScore": "Twoje Elo to {{elo}}",
@@ -72,8 +74,9 @@
 
   "battleType": "Tryb bitwy",
   "dynamicBattleType": {
-    "clash": "Potyczka",
-    "combat": "Starcie",
+    "skirmish": "Potyczka",
+    "clash": "Starcie",
+    "combat": "Batalia",
     "battle": "Bitwa",
     "grand_battle": "Wielka Bitwa"
   },
@@ -175,34 +178,62 @@
     "light-cannon-ball": "Lekka Kula Armatnia",
     "explosive-shell": "Pocisk Wybuchowy",
     "cavalry-sword": "Miecz Kawaleryjski",
-    "canister-fire": "Ogień Kartaczowy",
-    "light-canister-fire": "Lekki Ogień Kartaczowy",
+    "canister-fire": "Ogień Kartaczami",
+    "light-canister-fire": "Lekki Ogień Kartaczami",
     "howitzer-canister": "Kartacz z Haubicy"
+    "heavy-cannon-ball": "Ciężka Kula Armatnia",
+    "heavy-canister-fire": "Ciężki Ostrzał Kartaczami",
+    "dragoon-sword": "Miecz Dragoński",
+    "horse-archer-bow": "Łuk kawaleryjski"
   },
 
   "unitName": {
     "1": "Piechota Liniowa",
-    "2": "Huzarzy",
-    "3": "12-Funtowa Artyleria Piesza",
+    "2": "Dragoni",
+    "3": "8-Funtowa Artyleria Piesza",
     "4": "Gwardia Piesza",
     "5": "Ułani",
-    "6": "4-Funtowa Artyleria Konna",
+    "6": "6-Funtowa Artyleria Konna",
     "7": "Lekka Piechota",
     "8": "Kirasjerzy",
-    "9": "6-calowa Haubica"
+    "9": "6-calowa Haubica",
+    "10": "Milicja",
+    "11": "Huzarzy",
+    "12": "12-Funtowa Artyleria Piesza",
+    "13": "Łucznicy Konni"
+  },
+
+  "battalionName": {
+    "1": "{{n}} Batalion Piechoty",
+    "2": "{{n}} Pułk Dragonów",
+    "3": "{{n}} Bateria Piesza",
+    "4": "{{n}} Batalion Gwardii Pieszej",
+    "5": "{{n}} Pułk Ułanów",
+    "6": "{{n}} Bateria Konna",
+    "7": "{{n}} Batalion Lekkiej Piechoty",
+    "8": "{{n}} Pułk Kirasjerów",
+    "9": "{{n}} Bateria Haubic",
+    "10": "{{n}} Milicji",
+    "11": "{{n}} Pułk Huzarów",
+    "12": "{{n}} Bateria Piesza",
+    "13": "{{n}} Łuczników Konnych"
   },
 
   "unitDescription": {
     "1": "Skromny batalion piechoty liniowej to podstawowa jednostka armii. Ich główną bronią jest karabin, ale mogą także używać swoich bagnetów by zwalczać kawalerię lub szarżować na wrogą piechotę lub artylerię.",
+    "2": "Reliable, well-rounded medium cavalry fit for harassment as well as prolonged fighting.",
+    "3": "Affordable medium artillery with modest mobility and firepower, together with impressive canister fire.",
     "4": "Doświadczeni, fizycznie okazali żołnierze z umiejętnością inspirowania sojuszników i przerażania wrogów. Te elitarne jednostki składają się wyłącznie z najbardziej uzdolnionych żołnierzy, co sprawia, że są owiele droższe w utrzymaniu. Ich wyśmienita walka wręcz i umiejętność zastraszania są niezastąpione podczas szarży na bagnety.",
     "7": "Elitarna piechota liniowa, specjalizująca się w szybkim manewrowaniu i celnym strzelaniu.",
-    "2": "Lekka kawaleria przystosowana do atakowania słabych, rannych i uciekających wrogów. Lecz można ich zwalczyć zorganizowaną piechotą i cieżką kawalerią. Przed atakiem użyj artylerii i piechoty aby osłabić przeciwnika.",
+    "11": "Lekka kawaleria przystosowana do atakowania słabych, rannych i uciekających wrogów. Lecz można ich zwalczyć zorganizowaną piechotą i cieżką kawalerią. Przed atakiem użyj artylerii i piechoty aby osłabić przeciwnika.",
     "5": "Elitarna średnia kawaleria, która używa lancy do wykonywania śmiertelnych szarży - seria szarży zrobiona przez kilka oddziałów ułanów z łatwością zniszczy każdego wroga. Ale są oni o wiele gorsi w przeciągającej się walce wręcz.",
     "8": "Potężna ciężka kawaleria z najlepszymi zdolnościami walki wręcz wśród wszystkich jednostek. Ale wciąż lepiej osłabić przeciwnika piechotą lub artylerią przed wysłaniem kirasjerów.",
-    "3": "Najcięższa armata polowa dostępna dla napoleońskiej armii; chociaż są niesamowicie drogie, ich zasięg i moc są niezrównane.",
+    "12": "Najcięższa armata polowa dostępna dla napoleońskiej armii; chociaż są niesamowicie drogie, ich zasięg i moc są niezrównane.",
     "6": "Prędkość i niska cena tych armat sprawia, że są doskonałe do wspierania kawalerii lub przemieszczania się razem z piechotą.",
     "9": "Lekkie haubice polowe z granatami artylerijskimi. Szczególnie zabójcze, gdy strzelają kartaczem - idealne do wspierania piechoty na średnim lub krótkim dystansie."
-  },
+    "10": "“To place any dependence upon militia is assuredly resting upon a broken staff.” - George Washington",  
+    "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh"
+},
 
   "damageResistances": "Odporność na Obrażenia",
   "otherStats": "Inne Statystyki",
@@ -229,6 +260,7 @@
   "circular": "Okrągły",
   "radius": "Promień",
   "edgeDamageModifier": "Modyfikator Obrażeń na Krawędzi",
+  "absorption": "Absorbcja",
   "trapezoidal": "Trapezowy",
   "topWidth": "Szerokość góry",
   "bottomWidth": "Szerokość dołu",
@@ -439,11 +471,17 @@
     "button": "Kontynuuj"
   },
 
-  "battleReport": "Raport Bitwy",
+  "battleReport": "Raport z Bitwy",
+  "strength": "Siła",
+  "guns": "Działa",
+  "casualties": "Ofiary",
+  "gunsLost": "Stracone Działa",
+  "noRewards": "Brak Nagród",
 
   "clan": "Koalicja",
   "clans": "Koalicje",
-  "createClan": "Stwórz Koalicję <0/> {{price}}",
+  "createClan": "Stwórz Koalicję",
+  "create": "Stwórz",
   "clanRole": {
     "leader": "Lider",
     "member": "Członek"
@@ -483,4 +521,14 @@
   "kick": "Wyrzuć",
   "noDescription": "Brak opisu",
   "save": "Zapisz"
+
+  "ordersSubmittedDialog": {
+    "p1": "You've submitted your orders. Now, wait for the others to make their move.",
+    "p2": "Checking updates in {{value}} seconds",
+    "b": "Check Now"
+  },
+
+  "search": {
+    "clans": "Search coalitions"
+  }
 }

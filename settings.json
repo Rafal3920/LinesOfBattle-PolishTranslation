@@ -57,9 +57,6 @@
   "allyColor": {
     "title": "Kolor sojusznika"
   },
-  "skinParticles": {
-    "title": "Efekty cząsteczkowe skórek"
-  },
   "generalVolume": {
     "title": "Głośność"
   },
@@ -75,5 +72,29 @@
     "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
   },
 
-  "reset": "Reset"
+  "reset": "Reset",
+
+  "formation": {
+    "title": "Formation",
+    "description": "Choose the default formation for units",
+    "simple": "Simple",
+    "line": "Line"
+  },
+
+  "keybindings": {
+    "title": "Keybindings",
+    "pressAKey": "Press a key...",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "moveLeft": "Move left",
+    "moveRight": "Move right",
+    "info": "Info",
+    "submitOrders": "Submit orders",
+    "deselect": "Deselect",
+    "moveOrder": "Move order",
+    "seekOrder": "Seek order",
+    "shootOrder": "Shoot order",
+    "fireAndAdvanceOrder": "Fire and advance order",
+    "fallbackOrder": "Fallback order"
+  }
 }
